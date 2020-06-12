@@ -1,0 +1,46 @@
+@media (max-width: 511px) {
+    .heder {
+        padding-top: 35px;
+    }
+    .heder_nav {
+        flex-direction: column-reverse;
+    }
+    .partner_list {
+        margin-bottom: 135px;
+    }
+    .partner_titel {
+        font-size: 30px;
+    }
+    .holiday_text {
+        font-size: 18px;
+    }
+    .partner_item {
+        margin-right: 0;
+        flex-basis: 100%;
+    }
+    .partner_item:not(:last-child) {
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+    .other_partners button {
+        padding: 15px 70px;
+    }
+}
+@media (max-width: 768px) {
+    .meet_partner {
+        padding: 40px 0;
+    }
+    .container {
+        max-width: 748px;
+    }
+    .heder_nav {
+        margin: 0 45px;
+    }
+    .partner_item {
+        flex-basis: 236px;
+        margin-right: 20px;
+    }
+    .partner_item:not(:nth-last-child(-n + 2)) {
+        margin-bottom: 60px;
+    }
+}
